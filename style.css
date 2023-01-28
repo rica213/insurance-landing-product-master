@@ -204,3 +204,32 @@ footer {
 .contact hr {
   width: 90%;
 }
+
+.more-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.more-info h4 {
+  color: hsl(273, 4%, 51%);
+  margin: 25px 0;
+}
+
+.more-info a {
+  color: hsl(270, 9%, 17%);
+  font-weight: 700;
+}
+
+.attribution {
+  margin: 25px;
+  color: hsl(273, 4%, 51%);
+}
+
+.attribution a {
+  color: hsl(270, 9%, 17%);
+  cursor: pointer;
+}
