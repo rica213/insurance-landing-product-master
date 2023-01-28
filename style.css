@@ -219,6 +219,9 @@ footer {
   margin: 25px 0;
 }
 
+.more-info li {
+  padding: 2px;
+}
 .more-info a {
   color: hsl(270, 9%, 17%);
   font-weight: 700;
