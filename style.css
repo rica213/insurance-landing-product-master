@@ -42,14 +42,14 @@ nav img {
 }
 
 menu {
-  padding: 3px 2.5px;
+  padding: 3px 6px;
   margin: 0 30px;
   border: 1px solid #161618;
 }
 
 .bar {
   background: #161618;
-  width: 20px;
+  width: 15px;
   height: 2px;
   margin: 3px 0;
   border-radius: 1px;
