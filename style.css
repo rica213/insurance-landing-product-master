@@ -229,7 +229,7 @@ footer {
   cursor: pointer;
 }
 
-.contact ul li a {
+.contact a {
   color: hsl(273, 4%, 51%);
   font-size: 2rem;
 }
@@ -238,7 +238,7 @@ footer {
   color: hsl(270, 9%, 17%);
 }
 
-footer hr {
+.footer-hr {
   width: 90%;
 }
 
@@ -259,13 +259,10 @@ footer hr {
 .more-info li {
   padding: 2px;
 }
+
 .more-info a {
   color: hsl(270, 9%, 17%);
   font-weight: 700;
-}
-
-.more-info a:hover {
-  text-decoration: underline;
 }
 
 .attribution {
@@ -276,6 +273,10 @@ footer hr {
 .attribution a {
   color: hsl(270, 9%, 17%);
   cursor: pointer;
+}
+
+.more-info a:hover {
+  text-decoration: underline;
 }
 
 /* Desktop Version Start */
@@ -303,10 +304,6 @@ footer hr {
     transition: 0.5s all;
   }
 
-  li a:hover {
-    color: #121213;
-  }
-
   .bttn_view {
     padding: 8px 12px;
     background-color: #fff;
@@ -317,10 +314,6 @@ footer hr {
 
   .bttn_view:hover {
     background: #2b282f;
-  }
-
-  .bttn_view a:hover {
-    color: #fff;
   }
 
   menu {
@@ -443,7 +436,6 @@ footer hr {
 
   .banner h2 {
     font-size: 2.5rem;
-    padding-top: 0;
     padding: 50px 0;
   }
 
@@ -465,7 +457,7 @@ footer hr {
     width: 20%;
   }
 
-  .contact ul li a {
+  .contact a {
     font-size: 1rem;
   }
 
@@ -480,5 +472,14 @@ footer hr {
 
   .more-info a {
     margin: 0;
+  }
+
+  /* hover */
+  li a:hover {
+    color: #121213;
+  }
+
+  .bttn_view a:hover {
+    color: #fff;
   }
 }
