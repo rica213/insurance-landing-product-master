@@ -88,6 +88,9 @@ menu {
   text-align: center;
 }
 
+.top-line {
+  display: none;
+}
 
 .overlay_img,
 .overlay_left {
@@ -143,7 +146,7 @@ menu {
  
 }
 
-hr {
+.features hr {
   width: 50%;
   margin: 0 auto;
   color: hsl(273, 4%, 51%);
@@ -173,6 +176,7 @@ hr {
 
 .features-wrapper p {
   color: hsl(273, 4%, 51%);
+  line-height: 1.25;
 }
 
 .banner {
@@ -335,6 +339,24 @@ li a:hover {
   color: #fff;
 }
 
+.top-line,
+.second-line {
+  display: block;
+  width: 150px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.top-line {
+  height: 1px;
+  background-color: #fff;
+}
+
+.second-line {
+  height: 1.5px;
+  background-color: hsl(273, 4%, 51%);
+}
+
 .overlay_img {
  position: absolute;
  right: 0;
@@ -369,6 +391,41 @@ li a:hover {
 
 .link {
   margin-left: 50px;
+}
+
+.features {
+  align-items: flex-start;
+}
+
+.features hr {
+  display: none;
+}
+
+.features h2{
+  margin-left: 50px;
+}
+
+.features-wrapper {
+  flex-direction: row;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.features-wrapper * {
+  padding: 10px;
+}
+
+.banner {
+  flex-direction: row;
+  background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+  justify-content: space-around;
+  padding-bottom: 0;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+  padding-top: 0;
+  padding: 50px 0;
 }
 
 }
