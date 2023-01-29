@@ -258,7 +258,7 @@ footer hr {
 }
 
 .attribution {
-  margin: 25px;
+  margin: 25px auto;
   color: hsl(273, 4%, 51%);
 }
 
@@ -428,6 +428,12 @@ li a:hover {
   padding: 50px 0;
 }
 
+footer {
+  background-image: url(images/bg-pattern-footer-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
 .contact {
   flex-direction: row;
   background-image: url(..);
@@ -442,6 +448,19 @@ li a:hover {
 
 .contact ul li a {
   font-size: 1rem;
+}
+
+.more-info {
+  flex-direction: row;
+  text-align: left;
+  width: 90%;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-right: 175px;
+}
+
+.more-info a {
+  margin: 0;
 }
 
 }
